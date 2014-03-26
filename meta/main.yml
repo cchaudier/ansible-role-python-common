@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Steve Tjoa
-  description: Common utilities for Python.
+  description: Common utilities for Python, including python-dev, pip, and setuptools.
   license: MIT
   min_ansible_version: 1.2
   platforms:

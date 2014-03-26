@@ -1,31 +1,19 @@
 ansible-role-python-common
 ==========================
 
-Common utilities for Python:
+Common utilities for Python. Installs the following packages:
 
 - python-dev
 - pip
 - setuptools
 
-Requirements
+Installation
 ------------
 
-None.
-
-Role Variables
---------------
-
-None.
-
-Dependencies
-------------
-
-None.
+    ansible-galaxy install stevetjoa.python-common
 
 Example Playbook
 -------------------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
     - hosts: all
       roles:
