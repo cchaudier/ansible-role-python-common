@@ -29,4 +29,6 @@ MIT
 Author Information
 ------------------
 
-Steve Tjoa, stevetjoa.com
+Steve Tjoa
+
+<http://stevetjoa.com>
