@@ -1,8 +1,10 @@
 ---
 - name: apt-get update
+  sudo: yes
   apt: update_cache=yes
 
 - name: Install packages from apt.
+  sudo: yes
   apt: pkg={{ item }} state=latest
   with_items:
       - python-dev
