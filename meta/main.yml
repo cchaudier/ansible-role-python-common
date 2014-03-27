@@ -3,7 +3,7 @@ galaxy_info:
   author: Steve Tjoa
   description: Common utilities for Python, including python-dev, pip, and setuptools.
   license: MIT
-  min_ansible_version: 1.2
+  min_ansible_version: 1.5
   platforms:
   - name: Ubuntu
     versions:
@@ -11,4 +11,3 @@ galaxy_info:
   categories:
   - packaging
   - system
-dependencies: []
