@@ -3,7 +3,6 @@ python:
     - "2.7"
 install:
     - pwd
-    - python --version
     - pip install ansible
     - ansible-playbook -i hosts --connection=local test.yml
 script:
