@@ -2,7 +2,8 @@
 
 # install pip
 apt-get -qq update
-apt-get -y install python-pip
+apt-get -y install python-dev python-pip
+pip install pip
 
 # taken from .travis.yml
 cd /vagrant
