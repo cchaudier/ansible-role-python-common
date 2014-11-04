@@ -11,6 +11,19 @@
       - libpq-dev
       - python-dev
       - python-pip
+      - postgresql-server-dev-9.3
+      - libxml2-dev 
+      - libxslt1-dev
+      - libjpeg8-dev 
+      - libtiff4-dev 
+      - zlib1g-dev 
+      - libfreetype6-dev 
+      - liblcms2-dev 
+      - libwebp-dev 
+      - tcl8.6-dev 
+      - tk8.6-dev 
+      - python-tk
+      - libevent-dev
 
 - name: Upgrade pip. Install setuptools.
   pip: name={{ item }} state=latest
